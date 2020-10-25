@@ -1,0 +1,357 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <title>Raise The Goods</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/input-file.css">
+        <meta name="theme-color" content="#fafafa">
+    </head>
+    <body>
+        <!--[if IE]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+        <!-- Add your site or application content here -->
+        <div class="wrapper">
+            <header class="page-header">
+                <nav>
+                    <img class="brand-logo" src="img/RaiseTheGoods-Logo.svg" />
+                    <button class="cta-contact" id="open-apply">Apply</button>
+                </nav>
+            </header>
+
+            <main class="page-main">
+                <div>
+                    <p class="banner-text-lg">Calling all Innovative Entrepreneurs, Non-profit & Social Enterprises.</p>
+                    <h1>Raise the Goods is Casting Now</h1>
+                </div>
+            </main>
+
+            <section class="banner-text-sm">
+                <h3>Calling all Innovative Entrepreneurs, Non-profit & Social Enterprises.</h3>
+            </section>
+
+            <section class="video">
+                <img src="img/RaiseTheGoods_video-cover.png">
+                <!-- <iframe src="https://player.vimeo.com/video/348279009?autoplay=1" width="940" height="720" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe> -->
+            </section>
+
+            <section class="promotion">
+                <div class="promotion-col apply">
+                    <p>Are you a charity, social enterprise, or non-profit?</p>
+                    <h1><a style="cursor: pointer;" id="open-apply-2">Apply Here</a></h1>
+                </div>
+
+                <div class="split-layout__divider">
+                    <div class="split-layout__rule"></div>
+                    <div class="split-layout__label">or</div>
+                    <div class="split-layout__rule"></div>
+                </div>
+
+                <div class="promotion-col nominate">
+                    <h2><a style="cursor: pointer;" id="open-nominate">Nominate</a></h2>
+                    <p>A charity, social enterprise or non-profit doing good.</p>
+                </div>
+            </section>
+
+            <section class="about">
+                <h1>About Raise The Goods</h1>
+                <p>
+                    <b>Raise the Goods</b> is a brand new TV show that gives
+                    emerging Irish nonprofits, social enterprises and charities a
+                    platform to showcase an innovation and pitch to
+                    philanthropists for a share in €1,000,000.
+                </p>
+                <p>
+                    <b>Raise the Goods</b> is a chance to get a financial leg-up
+                    and exposure to a national audience.
+                </p>
+                <p>
+                    <a style="cursor: pointer;" id="open-ireland">Not in Ireland?</a>
+                </p>
+            </section>
+
+            <section class="workflow">
+                <h1>How it Works</h1>
+                <div class="workflow-content">
+                    <div class="workflow-col">
+                        <div class="icon-row">
+                            <img class="icon-number" src="icon/1.svg" />
+                            <img class="icon-art" src="icon/1-Clipboard.svg" />
+                        </div>
+                        <h2>Apply</h2>
+                        <p>
+                            New and innovative entrepreneurs, nonprofits and social enterprises submit an entry:
+                            <ul>
+                                <li>
+                                    Tell us your origin story.
+                                </li>
+                                <li>
+                                    Tell us where you're heading.
+                                </li>
+                                <li>
+                                    And tell us how a share in €1,000,000 will make a difference to your work.
+                                </li>
+                            </ul>
+                        </p>
+                    </div>
+                    <div class="workflow-col">
+                        <div class="icon-row">
+                            <img class="icon-number" src="icon/2.svg" />
+                            <img class="icon-art" src="icon/2-Medal.svg" />
+                        </div>
+                        <h2>Finalists Announced</h2>
+                        <p>
+                            After a review of all submissions, 16 finalists will be
+                            announced to be part of the first season of the <b>Raise The Goods</b>
+                        </p>
+                    </div>
+                    <div class="workflow-col">
+                        <div class="icon-row">
+                            <img class="icon-number" src="icon/3.svg" />
+                            <img class="icon-art" src="icon/3-TV.svg" />
+                        </div>
+                        <h2>Television Event</h2>
+                        <p>
+                            Finalists will participate in <b>Raise The Goods</b> television
+                            show. Showcase their enterprise and compete to pitch to
+                            philanthropists.
+                        </p>
+                    </div>
+                    <div class="workflow-col">
+                        <div class="icon-row">
+                            <img class="icon-number" src="icon/4.svg" />
+                            <img class="icon-art" src="icon/4-Podium.svg" />
+                        </div>
+                        <h2>Winners Announced</h2>
+                        <p>
+                            Four winners will be announced in the final episode.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="partner">
+                <h1>Partners</h1>
+                <img class="partner-logo" src="img/CharitiesInstituteIreland-Logo.png" />
+            </section>
+
+            <footer class="page-footer">
+                <img class="footer-logo" src="img/Goods-Logo.svg" />
+                <p>&copy; 2019 Goods International Pty Ltd</p>
+            </footer>
+        </div>
+
+        <div class="modal-overlay closed"></div>
+
+        <div class="modal closed" id="modal-apply">
+            <button class="close-button" id="close-apply">X</button>
+            <div class="modal-guts">
+                <form class="modal-form" action="forms/apply_form.php" method="post" enctype="multipart/form-data">
+                    <h3>Apply Form</h3>
+                    <fieldset>
+                        <input name="applied_person" placeholder="Name of Person Applying" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="applied_person_role" placeholder="Role of Person Applying" type="text" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="charity_enterprise_initiative_name" placeholder="Name of Charity, Social Enterprise or Initiative" type="text" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="charity_enterprise_initiative_address" placeholder="Address of Charity, Social Enterprise or Initiative" type="text" tabindex="4" required>
+                    </fieldset>
+                    <h4>Contact</h4>
+                    <fieldset>
+                        <input name="email" placeholder="Email" type="email" tabindex="5" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="phone" placeholder="Phone" type="text" tabindex="6" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="website" placeholder="Website" type="text" tabindex="7" required>
+                    </fieldset>
+                    <h4>Social (if any)</h4>
+                    <fieldset>
+                        <input name="facebook" placeholder="Facebook" type="text" tabindex="8">
+                    </fieldset>
+                    <fieldset>
+                        <input name="twitter" placeholder="Twitter" type="text" tabindex="9">
+                    </fieldset>
+                    <fieldset>
+                        <input name="instagram" placeholder="Instagram" type="text" tabindex="10">
+                    </fieldset>
+                    <fieldset>
+                        <input name="linkedin" placeholder="Linkedin" type="text" tabindex="11">
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_description" placeholder="Explain your initiative, organisation, charity or social enterprise (80 words or less)" tabindex="12" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_team" placeholder="Who is part of the team (it’s OK if its just you!)? (100 words or less)" tabindex="13" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_work" placeholder="What problem are you solving and why did you pick this problem? (100 words or less)" tabindex="14" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_why" placeholder="Who needs this and why? (100 words or less)" tabindex="15" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_innovation" placeholder="What's new about what you plan to do? (100 words or less)" tabindex="16" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_solutions" placeholder="What other solutions currently exist and why are you better or different? (200 words or less)" tabindex="17" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="anything_else" placeholder="Is there anything else you would like us to know? (100 words or less)" tabindex="18" required></textarea>
+                    </fieldset>
+                    <h4>Finally, please upload a short single take selfie video (1min or less) in which you:</h4>
+                    <h4 id="video-list">
+                        <p>1 ) Introduces yourself / your team</p>
+                        <p>2) Tell us what you are most passionate about</p>
+                    </h4>
+                    <fieldset>
+                        <input type="file" name="video">
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal closed" id="modal-nominate">
+            <button class="close-button" id="close-nominate">X</button>
+            <div class="modal-guts">
+                <form class="modal-form" action="forms/nominate.php" method="post">
+                    <h3>Nominate Form</h3>
+                    <fieldset>
+                        <input name="nominated_person" placeholder="Name of Person Nominating" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative_know_how" placeholder="How Do You Know the Charity, Social Enterprise or Initiative you are nominating?" tabindex="2" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <input name="charity_enterprise_initiative_name" placeholder="Name of Charity, Social Enterprise or Initiative" type="text" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="charity_enterprise_initiative_address" placeholder="Address of Charity, Social Enterprise or Initiative" type="text" tabindex="4" required>
+                    </fieldset>
+                    <h4>Your Contact</h4>
+                    <fieldset>
+                        <input name="email" placeholder="Email" type="email" tabindex="5" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="phone" placeholder="Phone" type="text" tabindex="6" required>
+                    </fieldset>
+                    <h4>Nominations (if any)</h4>
+                    <fieldset>
+                        <input name="website" placeholder="Website" type="text" tabindex="7">
+                    </fieldset>
+                    <fieldset>
+                        <input name="facebook" placeholder="Facebook" type="text" tabindex="8">
+                    </fieldset>
+                    <fieldset>
+                        <input name="twitter" placeholder="Twitter" type="text" tabindex="9">
+                    </fieldset>
+                    <fieldset>
+                        <input name="instagram" placeholder="Instagram" type="text" tabindex="10">
+                    </fieldset>
+                    <fieldset>
+                        <input name="linkedin" placeholder="Linkedin" type="text" tabindex="11">
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="nomination_reasons" placeholder="Why are you nominating this particular charity or social enterprise? (100 words or less)" tabindex="12" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="nomination_description" placeholder="Explain the initiative, organisation, charity or social enterprise (80 words or less)" tabindex="13" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="nomination_work" placeholder="What problem are they solving and why is this important to you? (100 words or less)" tabindex="14" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="anything_else" placeholder="Is there anything else you would like us to know? (100 words or less)" tabindex="15" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal closed" id="modal-ireland">
+            <button class="close-button" id="close-ireland">X</button>
+            <div class="modal-guts">
+                <form class="modal-form" action="forms/not_in_ireland.php" method="post">
+                    <h3>Not in Ireland Form</h3>
+                    <fieldset>
+                        <input name="where_from" placeholder="Hello! Where are you?" type="text" tabindex="1" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="heard_about" placeholder="How did you hear about Raise The Goods?" tabindex="2" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="charity_enterprise_initiative" placeholder="Do you have a Charity, Social Enterprise or Initiative we should know about?" tabindex="3" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="why_goods" placeholder="Why would Raise The Goods be good in your particular country / region?" tabindex="4" required></textarea>
+                    </fieldset>
+                    <h4>About You</h4>
+                    <fieldset>
+                        <input name="name" placeholder="Name" type="text" tabindex="5" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="email" placeholder="Email" type="email" tabindex="6" required>
+                    </fieldset>
+                    <fieldset>
+                        <input name="phone" placeholder="Phone" type="text" tabindex="7" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea name="anything_else" placeholder="Is there anything else you would like us to know?" tabindex="8" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+        <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/input-file.min.js"></script>
+        <script>
+		    new InputFile({
+			    // options
+		    });
+
+            $(function() {
+                var videos  = $(".video");
+                videos.on("click", function(){
+                    var elm = $(this),
+                        conts   = elm.contents(),
+                        le      = conts.length,
+                        ifr     = null;
+
+                    for(var i = 0; i<le; i++){
+                      if(conts[i].nodeType == 8) ifr = conts[i].textContent;
+                    }
+                    elm.addClass("player").html(ifr);
+                    elm.off("click");
+
+                });
+            });
+	    </script>
+
+
+    </body>
+</html>
